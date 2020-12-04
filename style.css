@@ -1,0 +1,94 @@
+html {
+    background-color: black;
+    color: green;
+  } 
+  
+  /* Flex Container Setup */
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  
+  .header {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+  }
+  
+  #container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    background-color: blue;
+  }
+  
+  /* Main */
+  
+  .main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  /* Containers-odd */
+  
+  #container-odd {
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-container-odd {
+    float: left;
+  }
+  .right-container-odd {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vw;
+    background: blue;
+    width: 50%;
+    float: right;
+    margin-left: 75px
+  }
+  
+  /* Containers-even */
+  
+  #container-even {
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-container-even {
+    text-align: right;
+  }
+  
+  .left-container-even {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vw;
+    background: yellow;
+    width: 50%;
+    float: left;
+    margin-right: 75px
+  }
+  
+  img {
+    border-radius: 50%;
+    width: 80%;
+  /*   position: absolute;
+    top:0;
+    right: 0; */
+  }
+  
+  
+  
+  
