@@ -2,198 +2,39 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-  
-  <style>
-  
-  html {
-    background-color: white;
-    color: green;
-  } 
-      
-  <!-- /* Flex Container Setup */ -->
-      
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-  }
-      
-  <!-- /* Header */ -->
-      
-  .header {
-    height: 50vh;
-    width: 60vw;
-    border: dashed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-      
-  #container-main {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #502E84;
-  }
-      
-  <!-- /* Main */ -->
-      
-  .main {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    position: relative;
-    margin: ;
-  }
-      
-  <!-- /* Containers-odd */ -->
-      
-  #container-odd {
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-  }
-      
-  .left-container-odd {
-    float: left;
-    background-color: ;
-  }
-  
-  .right-container-odd {
-    display: flex;
-    align-items: center ;
-    justify-content: space-around;
-    height: 20vw;
-    background: ;
-    width: 50%;
-    float: right;
-    margin-left: 75px;
-    color: #502E84;
-  }
-      
-      
-  <!-- /* Containers-even */ -->
-      
-  #container-even {
-    background-color: #502E84;
-    align-items: center;
-    justify-content: center;
-  }
-      
-  .right-container-even {
-    display: flex;
-    float: right;
-    background-color:;
-  }
-      
-  .left-container-even {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 20vw;
-    background: #502E84;
-    width: 50%;
-    float: left;
-    margin-right: 75px;
-    color: white;
-  }
-      
-  img {
-    border-radius: 50%;
-    height: 512px;
-    width: 512px;
-    top: 0;
-  }
-  
-  #contact:hover{
-    opacity: 0.5;
-  }
-      
-  #contact {
-    border-radius: 0;
-    height: 80px;
-    width: 80px;
-    transition: 0.5s;
-  }
-  
-  #team_contact:hover {
-     opacity: 0.5;
-     cursor: pointer;
-  }
-  
-    
-  #team_contact {
-    margin-top: 0px;
-    background-color: #2196F3;
-    color: white;
-    width: 400px;
-    border-radius: 50px;
-    text-align: center;
-    transition: 0.5s;
-  }
-      
-  h1 {
-    font-size: 13rem;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 20px;
-    margin-bottom: 0px;
-  }
-  
-    
-  h2 {
-    font-size: 5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 10px;
-  }
-  
-  h3 {
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-  }
-  
-  p {
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-    
-  </style>
-  </head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
   
   <div class="flex-container">
         
     <!-- Header Welcome Page   -->
         
-  <span class="main" id="container-main">
-  <h1>  MEET THE TEAM </h1>
-  <p id="team_contact"> CONTACT US </p>
-    
-  </span>
+    <div class="main" id="container-main">
+      <h1>  MEET THE TEAM </h1>
+      <p id="team_contact"> CONTACT US </p>
+    </div>
+
   </div>
   
-        
     <!-- Container-1 -->
     
   <div class="flex-container">
-  
-  <span class="main" id="container-odd">
-  <span class="left-container-odd">
-  <span class="left-content-odd">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </span>
-  </span>
-  <span class="right-container-odd"> 
-  <span class="right-content-odd"> 
-  <h2> TIMOTHY SHIN <a href="mailto:Timothy Shin <Timothy.Shin@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSOCIATE GROUP LEADER </h3>
-  <p> Timothy.Shin@ppdi.com </p> 
-  </span>
-  </span>
-  </span>
+    
+    <div class="main" id="container-odd">
+      <div class="left-container-odd">
+        <div class="left-content-odd">
+        <img src="/images/me.png">
+        </div>
+      </div>
+      <div class="right-container-odd"> 
+        <div class="right-content-odd"> 
+          <h2> MARKLEXTER ALAS <a href="mailto: marklexteralas@gmail.com" target="_top"> <img src="/images/email.png" id="contact"> </a> </h2>
+          <h3> SCIENTIST </h3>
+          <p> marklexteralas@gmail.com </p> 
+        </div>
+      </div>
+    </div>
     
   </div>
     
@@ -201,273 +42,20 @@
     
   <div class="flex-container">
   
-  <span class="main" id="container-even">
-  <span class="left-container-even">
-  <span class="left-content-even">
-  <h2> KEVIN HATTON <a href="mailto:Kevin Hatton <Kevin.Hatton@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSOCIATE GROUP LEADER </h3>
-  <p> Kevin.Hatton@ppdi.com </p>
-  </span>
-  </span>
-  <div class="right-container-even">
-  <div class="right-content-even">
-  <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/KJH.jpg">
-  </div>
-  </div>
-  
-          
-  </div>
-  
-    <!-- Container-3 -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-odd">
-  <span class="left-container-odd">
-  <span class="left-content-odd">
-  <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/Mark.jpg">
-  </span>
-  </span>
-  <span class="right-container-odd"> 
-  <span class="right-content-odd"> 
-  <h2> MARKLEXTER ALAS <a href="mailto:Marklexter Alas <Marklexter.Alas@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a></h2>
-  <h3> ASSOCIATE SCIENTIST </h3>
-  <p> Marklexter.Alas@ppdi.com </p> 
-  </span>
-  </span>
-  </span>
+    <div class="main" id="container-even">
+      <div class="left-container-even">
+        <div class="left-content-even">
+          <h2> FIRSTNAME LASTNAME  <a href="mailto:<Firstname.Lastname@email.com>" target="_top"> <img src="/images/email.png" id="contact"> </a> </h2>
+          <h3> TITLE </h3>
+          <p> Firstname.Lastname@email.com </p>
+        </div>
+      </div>
+      <div class="right-container-even">
+        <div class="right-content-even">
+          <img src="/images/woman.png">
+        </div>
+    </div>
     
   </div>
-  
-  
-    <!-- Container-4  -->
+
     
-  <div class="flex-container">
-  
-  <span class="main" id="container-even">
-  <span class="left-container-even">
-  <span class="left-content-even">
-  <h2> CATHERINE CAPPELLIN <a href="mailto:Catherine Cappellin <Catherine.Cappellin@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> SCIENTIST </h3>
-  <p> Catherine.Cappellin@ppdi.com </p>
-  </span>
-  </span>
-  <div class="right-container-even">
-  <div class="right-content-even">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </div>
-  </div>
-  
-          
-  </div>
-  
-    <!-- Container-5 -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-odd">
-  <span class="left-container-odd">
-  <span class="left-content-odd">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </span>
-  </span>
-  <span class="right-container-odd"> 
-  <span class="right-content-odd"> 
-  <h2> AUTUMN DAVIS <a href="mailto:Autumn Davis <Autumn.Davis@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a></h2>
-  <h3> SCIENTIST </h3>
-  <p> Autumn.Davis@ppdi.com </p> 
-  </span>
-  </span>
-  </span>
-    
-  </div>
-  
-    <!-- Container-6  -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-even">
-  <span class="left-container-even">
-  <span class="left-content-even">
-  <h2> YAMA GHANI <a href="mailto:Yama Ghani <Yama.Ghani@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSISTANT SCIENTIST </h3>
-  <p> Yama.Ghani@ppdi.com </p>
-  </span>
-  </span>
-  <div class="right-container-even">
-  <div class="right-content-even">
-  <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/Yama1.jpg">
-  </div>
-  </div>
-  
-          
-  </div>
-  
-    <!-- Container-7 -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-odd">
-  <span class="left-container-odd">
-  <span class="left-content-odd">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </span>
-  </span>
-  <span class="right-container-odd"> 
-  <span class="right-content-odd"> 
-  <h2> NICHOLAS JOANNIDES <a href="mailto:Nicholas Joannides <Nicholas.Joannides@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> QC REVIEWER </h3>
-  <p> Nicholas.Joannides@ppdi.com </p> 
-  </span>
-  </span>
-  </span>
-    
-  </div>
-  
-    <!-- Container-8  -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-even">
-  <span class="left-container-even">
-  <span class="left-content-even">
-  <h2> JACKSON MAYOCK <a href="mailto:Jackson Mayock <Jackson.Mayock@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSOCIATE QC REVIEWER </h3>
-  <p> Jackson.Mayock@ppdi.com </p>
-  </span>
-  </span>
-  <div class="right-container-even">
-  <div class="right-content-even">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </div>
-  </div>
-  
-          
-  </div>
-  
-    <!-- Container-9 -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-odd">
-  <span class="left-container-odd">
-  <span class="left-content-odd">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </span>
-  </span>
-  <span class="right-container-odd"> 
-  <span class="right-content-odd"> 
-  <h2> KAITLYN MICHAUD <a href="mailto:Kaitlyn Michaud <Kaitlyn.Michaud@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSOCIATE SCIENTIST </h3>
-  <p> Kaitlyn.Michaud@ppdi.com </p> 
-  </span>
-  </span>
-  </span>
-    
-  </div>
-  
-    <!-- Container-10  -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-even">
-  <span class="left-container-even">
-  <span class="left-content-even">
-  <h2> AMANDA RUTLEDGE <a href="mailto:Amanda Rutledge <Amanda.Rutledge@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> SCIENTIST </h3>
-  <p> Amanda.Rutledge@ppdi.com </p>
-  </span>
-  </span>
-  <div class="right-container-even">
-  <div class="right-content-even">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </div>
-  </div>
-  
-          
-  </div>
-  
-    <!-- Container-11 -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-odd">
-  <span class="left-container-odd">
-  <span class="left-content-odd">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </span>
-  </span>
-  <span class="right-container-odd"> 
-  <span class="right-content-odd"> 
-  <h2> JEFFREY TUCKER <a href="mailto: Jeffrey Tucker <Jeffrey.Tucker@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> INTERN-UNDERGRADUATE </h3>
-  <p> Jeffrey.Tucker@ppdi.com </p> 
-  </span>
-  </span>
-  </span>
-    
-  </div>
-  
-    <!-- Container-12  -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-even">
-  <span class="left-container-even">
-  <span class="left-content-even">
-  <h2> MAYA WALTON <a href="mailto: Maya Walton <Maya.Walton@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSOCIATE AUTOMATION SPECIALIST </h3>
-  <p> Maya.Walton@ppdi.com </p>
-  </span>
-  </span>
-  <div class="right-container-even">
-  <div class="right-content-even">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </div>
-  </div>
-  
-          
-  </div>
-  
-    <!-- Container-13 -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-odd">
-  <span class="left-container-odd">
-  <span class="left-content-odd">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </span>
-  </span>
-  <span class="right-container-odd"> 
-  <span class="right-content-odd"> 
-  <h2> ALEX WARD <a href="mailto:Alex Ward (BIOA) <Alex.Ward2@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSOCIATE SCIENTIST </h3>
-  <p> Alex.Ward2@ppdi.com </p> 
-  </span>
-  </span>
-  </span>
-    
-  </div>
-  
-  
-    <!-- Container-14  -->
-    
-  <div class="flex-container">
-  
-  <span class="main" id="container-even">
-  <span class="left-container-even">
-  <span class="left-content-even">
-  <h2> DAVID WOLFZORN <a href="mailto:David Wolfzorn <David.Wolfzorn@ppdi.com>" target="_top"> <img src="G:/Shared/Marklexter Alas/R Studio/ASSET_Page/Images/email.png" id="contact"> </a> </h2>
-  <h3> ASSOCIATE AUTOMATION SPECIALIST </h3>
-  <p> David.Wolfzorn@ppdi.com </p>
-  </span>
-  </span>
-  <div class="right-container-even">
-  <div class="right-content-even">
-  <img src="G:/Shared/Marklexter Alas/R Studio/New_Project/woman.png">
-  </div>
-  </div>
-  
-          
-  </div>
