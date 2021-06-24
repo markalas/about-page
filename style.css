@@ -26,7 +26,7 @@ html {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  background-color: #502E84;
+  background-color: #000000;
 }
     
 /* Main */
@@ -36,7 +36,6 @@ html {
   width: 100vw;
   display: flex;
   position: relative;
-  margin: ;
 }
     
 /* Containers-odd */
@@ -61,7 +60,7 @@ html {
   width: 50%;
   float: right;
   margin-left: 75px;
-  color: #502E84;
+  color: #000000;
 }
     
 /* Containers-even */
@@ -92,8 +91,8 @@ html {
     
 img {
   border-radius: 50%;
-  height: 512px;
-  width: 512px;
+  height: 800px;
+  width: 800x;
   top: 0;
 }
 
@@ -106,6 +105,7 @@ img {
   height: 80px;
   width: 80px;
   transition: 0.5s;
+  filter: invert(52%) sepia(9%) saturate(1011%) hue-rotate(163deg) brightness(91%) contrast(87%);
 }
 
 #team_contact:hover {
@@ -115,10 +115,10 @@ img {
 
 #team_contact {
   margin-top: 0px;
-  background-color: #2196F3;
+  background-color: #677f91;
   color: white;
-  width: 400px;
-  border-radius: 50px;
+  width: 30vw;
+  border-radius: 40px;
   text-align: center;
   transition: 0.5s;
 }
@@ -137,15 +137,18 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 10px;
+  margin-bottom: 0px;
 }
 
 h3 {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  margin: 0px;
 }
 
 p {
   font-size: 3rem;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
 }
